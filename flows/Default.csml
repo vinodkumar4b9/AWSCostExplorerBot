@@ -19,7 +19,7 @@ select:
 	say "I'm sorry I did not get that!"
 	goto start
 
-getcosts:
+getcost:
 	use Button("Today") as tdy
 	use Button("Yesterday") as ysdy
 	use Button("Month to date") as mtd
